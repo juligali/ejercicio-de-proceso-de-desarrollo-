@@ -16,6 +16,6 @@ public class Main {
         Notificacion noti3 = NotificacionFactory.crearNotificacion("WHATSAPP");
         noti3.enviar("Recordatorio de examen");
     }
-}// lo que hace el factory es que el man no sabe quw clase se crea.
+}// lo que hace el factory es que el main  no sabe quw clase se crea.
 // la clase factory encapsula los new
 // sin factory el new estaria en el main
